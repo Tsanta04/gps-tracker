@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "map",
+    "slug": "map",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.jpeg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.tsanta04.boltexponativewind"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "346c363d-8a62-48f9-85d2-43d56a8076bf"
+      }
+    }
+  }
+}
