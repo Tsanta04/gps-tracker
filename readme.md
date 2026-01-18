@@ -11,12 +11,14 @@ The system consists of two main parts communicating via an MQTT broker (HiveMQ C
 
 ## Repository Organization
 
-The project is structured into two main folders:
+The project is structured into the following main folders:
 
 | Folder | Description | Technology |
 | :--- | :--- | :--- |
 | **`SimulationCode/`** | Contains the Jupyter notebook (`Send.ipynb`) that simulates the IoT device and publishes geolocation data. | Python, Paho-MQTT, Jupyter |
 | **`AppCode/`** | Contains the source code of the mobile application that subscribes to the data stream to visualize the path. | React Native, Expo, MQTT |
+| **`Documentation/`** | Contains project documentation, architecture diagrams, and reports. | PDF, Markdown, Images |
+| **`APK/`** | Contains the compiled Android application package (.apk) for direct installation. | Android Package |
 
 ## Technical Architecture
 

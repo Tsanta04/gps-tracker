@@ -23,7 +23,7 @@ pip install paho-mqtt
 
 ## Configuration
 
-The connection settings are defined in the notebook variables:
+
 
 - **Broker**: `e792f3c61e8648d2bd1822c6d1910301.s1.eu.hivemq.cloud`
 - **Port**: `8883` (TLS)
